@@ -25,5 +25,10 @@ Foram utilizados:
  As configuração estão injetadas no proprio código para facilitar o teste do avaliador.
  
     optionsBuilder.UseMySql("Server=[SERVIDOR];Port=[PORTA];Database=modelo;Uid=[USUARIO];Pwd=[SENHA]");
+
+#Container
  
- 
+Foram adcionados os arquivos de configuração e geração de imagem do container Docker.
+Ainda seria possível a utilização do cloud Azure-container caso optante pelo cliente interno.
+
+O fato de usarmos .net core nos dá flexibilidade de trabalhar com qualquer sistema operacionar e qualquer container Manager.
