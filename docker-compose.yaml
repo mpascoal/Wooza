@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  woozaapi:
+    image: woozaapi
+    build:
+      context: .
+    ports:
+      - "20000:80"
+    networks:
+      - wooza-network
+    
+
+networks: 
+    marvel-network:
+        driver: bridge
